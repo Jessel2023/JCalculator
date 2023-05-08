@@ -152,6 +152,9 @@ function handleKeyPress(e) {
   if (e.key === ".") {
     addDecimal();
   }
+   if (e.key === "%") {
+    handleOperator("%");
+  }
   if (e.key === "Backspace") {
     handleDelete();
   }
