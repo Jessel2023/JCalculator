@@ -87,7 +87,7 @@ function compute() {
   } else if (operator === "x") {
     previousNum *= currentNum;
   } else if (operator==="%"){
-    previousNum %= currentNum;
+   previousNum/=currentNum*=100;
   }
   else if (operator === "÷") {
     if (currentNum <= 0) {
